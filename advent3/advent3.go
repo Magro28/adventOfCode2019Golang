@@ -30,10 +30,6 @@ func readFile(path string) ([]string, []string) {
 	return wire1, wire2
 }
 
-func calculateFuel(mass int) int {
-	return int(float64(mass)/float64(3)) - 2
-}
-
 func main() {
 	fmt.Println("Advent 3")
 	var wire1, wire2 = readFile("advent3/input")
@@ -54,6 +50,7 @@ func main() {
 		}
 		fmt.Print( " ", wire2[i])
 	}
+	//TODO work in progress
 
 
 }
