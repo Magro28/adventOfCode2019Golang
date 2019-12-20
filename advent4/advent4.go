@@ -65,7 +65,7 @@ func main() {
 	fmt.Println("Part 1")
 	for i:=r.from;i<=r.to;i++{
 		if (checkDoubleDigits(i)&&checkNeverDecrease(i)){
-			fmt.Println("Found valid code:", i)
+			fmt.Println("Part 1: Found valid code:", i)
 			count++
 		}
 	}
@@ -79,7 +79,7 @@ func main() {
 			fmt.Println("Found valid code:", i)
 		}
 	}
-	fmt.Println("Found", count,"valid codes")
+	fmt.Println("Part 2: Found", count,"valid codes")
 }
 
 
